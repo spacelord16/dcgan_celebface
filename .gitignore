@@ -7,13 +7,16 @@ celeba-dataset/
 *.rar
 *.7z
 
-# Generated outputs
-generated/
+# Generated outputs (except our generated folder)
 outputs/
+
 results/
-*.png
-*.jpg
-*.jpeg
+# Allow generated folder and its images
+!generated/
+!generated/**/*.png
+!generated/**/*.jpg
+!generated/**/*.jpeg
+# But ignore these image types elsewhere
 *.gif
 *.bmp
 *.tiff
@@ -36,7 +39,6 @@ tensorboard_logs/
 *.log
 *.out
 *.err
-gan_loss_history.png
 
 # Python
 __pycache__/
