@@ -1,0 +1,141 @@
+# Dataset files (very large)
+dataset/
+celeba-dataset/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Generated outputs
+generated/
+outputs/
+results/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Model checkpoints and weights
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+checkpoints/
+models/saved/
+weights/
+
+# Logs and training artifacts
+logs/
+tensorboard_logs/
+*.log
+*.out
+*.err
+gan_loss_history.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# API keys and credentials
+kaggle.json
+*.key
+*.pem
+.env
+secrets/
+credentials/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large data files
+*.csv
+*.json
+*.xml
+*.parquet
+*.feather
+
+# Backup files
+*.bak
+*.backup
+*~
